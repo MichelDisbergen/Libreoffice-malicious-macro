@@ -7,7 +7,7 @@ init()
 def Help():
 
 	print ('LibreOffice/OpenOffice .odg Draw Document Malicious Macro Generator')
-	print ('Usage python3 mmg-odg.py <linux/windows> <rhost> <rport>')
+	print ('Usage python3 mmg-odg.py <linux/windows> <lhost> <lport>')
 	sys.exit(1)
 
 if len(sys.argv) < 4:
